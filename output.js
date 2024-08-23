@@ -1,4 +1,4 @@
-//Fri Aug 23 2024 09:09:04 GMT+0000 (Coordinated Universal Time)
+//Fri Aug 23 2024 09:17:08 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 /**
@@ -7,7 +7,7 @@
  * export OCR_SERVER="ocr服务"
  */
 const $ = new Env("\u638C\u4E0A\u6B66\u4E49");
-const notify = $.isNode() ? require("./sendNotify") : "";
+const notify = $.isNode() ? require("../sendNotify") : "";
 function a0d(a, b) {
   var c = a0c();
   return a0d = function (d, e) {
