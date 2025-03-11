@@ -1,5 +1,8 @@
+//Tue Mar 11 2025 07:02:25 GMT+0000 (Coordinated Universal Time)
+//Base:https://github.com/echo094/decode-js
+//Modify:https://github.com/smallfawn/decode_action
 const $ = new Env("大潮");
-const notify = $.isNode() ? require("./sendNotify") : "";
+const notify = $.isNode() ? require("../sendNotify") : "";
 (() => {
   function b(ae) {
     b = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (af) {
@@ -567,7 +570,7 @@ const notify = $.isNode() ? require("./sendNotify") : "";
               return a8();
             case 7:
               m = bi.sent;
-              ah = j.split("\n");
+              ah = j.split(" ");
               ai = c(ah);
               bi.prev = 10;
               ai.s();
